@@ -3,7 +3,7 @@ project:
 
 image:
   # If using default workflow, this will be set to ghcr.io/<github_org>/<repo_name>
-  repository: ghcr.io/akuity/sedemo-app-
+  repository: ghcr.io/akuity/sedemo-app-oct
   # Default use of this ghcr publishing workflow will use incrmental build number as tag
   selectionStrategy: SemVer
   # if useing digest stragey, uncomment next line and comment tagRegex line
@@ -13,7 +13,7 @@ image:
   memoryLimit: 64Mi
   cpuLimit: 1m
 ingress:
-  custom_prefix: changeme
+  custom_prefix: oct
 
 rollouts:
   enabled: true
